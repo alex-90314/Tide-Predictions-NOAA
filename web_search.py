@@ -1,3 +1,10 @@
+'''
+guide for using selenium to search the web
+https://towardsdatascience.com/controlling-the-web-with-python-6fceb22c5f08
+
+API call that creates the .CSV file and auto downloads it
+https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=8723214&product=predictions&datum=MLW&time_zone=lst&units=english&format=csv
+'''
 import selenium
 
 driver = webdriver.Chrome()

@@ -1,2 +1,9 @@
-guide for using selenium to search the web
-https://towardsdatascience.com/controlling-the-web-with-python-6fceb22c5f08
+tide cycle graph
+https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=8723214
+
+NOAA station being used to take the data
+https://tidesandcurrents.noaa.gov/map/index.html?id=8723214
+
+being used to quickly create the API url to attain the .CSV file
+https://tidesandcurrents.noaa.gov/api-helper/url-generator.html
+

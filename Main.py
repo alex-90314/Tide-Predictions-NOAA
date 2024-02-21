@@ -1,15 +1,11 @@
-#old method - reliant on the csv module
+with open('Tide_Info.csv') as f:
+    data = f.readlines()
 
-# import csv
+    for line in data:
 
-# with open('Tide_Info.csv', newline='') as csvfile:
-#     spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-#     for row in spamreader:
-#         print(', '.join(row))
+        line = line.strip()
+        vars = line.split(" ")
 
+        date, time, predict = vars
 
-# new method - not reliant on the csv module
-with open('Tide_Info.csv') as csv:
-    for line in csv:
-        Predict = line
-        Print(f"On {Date} @ {Time} the tide will be {Predict}")
+        print(f"On {date} @ {time} the tide will be {predict}")
