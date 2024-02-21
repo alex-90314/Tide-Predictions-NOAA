@@ -1,0 +1,2 @@
+guide for using selenium to search the web
+https://towardsdatascience.com/controlling-the-web-with-python-6fceb22c5f08
