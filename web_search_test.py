@@ -1,12 +1,7 @@
-import os
+from selenium import webdriver
 
-submission_dir = 'completed_assignments'
+# Set up WebDriver (Chrome in this example)
+driver = webdriver.Chrome()
 
-dir_list = list(os.listdir(submission_dir))
-
-for directory in dir_list:
-    file_list = list(os.listdir(os.path.join(submission_dir, directory)))
-    if len(file_list) != 0:
-        file_tup = (directory, file_list[0])
-
-print(file_tup)
+# Open a website
+driver.get("https://www.google.com")
